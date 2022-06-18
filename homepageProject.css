@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Gentium+Plus&family=Noto+Sans:wght@300&family=Nunito+Sans:wght@200&family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+a:hover {
+color: pink;
+}
+
+a {
+    color: gray;
+}
+.container-one {
+    display: flex;
+    justify-content: space-around;
+}
+.backgroundImg {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSbmNqXpXwBN0tHn8VHq6OSDOzSzPSI2jsSLrByDUeUvfWxeetMO-pGbodwnOP4O-WPY&usqp=CAU");
+    height: 300px;
+    display: flex;
+    padding-top: 35px;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+}
+.text {
+    background-color: white;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    text-align:center;
+}
+.recImg {
+    width: 200px;
+    height: auto;
+    border: 3px solid white;
+}
+.places {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.place {
+    margin: 0px 60px;
+}
+.team-img {
+    background-image: url("https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/static/optimized/rev-0404f4f/images/madrid.jpg");
+    background-size: cover;
+}
+.Team {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+footer {
+    text-align: center;
+}
